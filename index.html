@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+        <div class="container">
+            <div class="row text-center align-items-center">
+                <div class="col-md-6 main-title">Лошадь - друг</div>
+                <div class="col-md-2">Первый раздел</div>
+                <div class="col-md-2">Второй раздел</div>
+                <div class="col-md-2">Третий раздел</div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row text-center clone">
+            <div class="col-md-12 mt-5 title">Что же удалось узнать о лошадях</div>
+            <div class="col-md-12 justify-content-center">
+                <button class="bt-clon px-3" id="bt1">клонировать 1</button>
+                <button class="bt-clon px-3" id="bt2">клонировать 2</button>
+                <button class="bt-clon px-3" id="bt3">клонировать 3</button>
+            </div>
+            <div class="col-md-4 text-center mt-5" id="clone1">
+                <img src="image/1horse.png" class="horse">
+                <div class="num">1</div>
+                <div>Во-первых, оказалось, что все современные домашние лошади произошли от одной группы одомашненных лошадей, т.е. находятся в близком родстве друг с другом.</div>
+            </div>
+            <div class="col-md-4 text-center mt-5" id="clone2">
+                <img src="image/2horse.png" class="horse">
+                <div class="num">2</div>
+                <div>Во-вторых, в близком родстве с современными домашними лошадьми оказались древние домашние лошади, вымершие примерно 4200 лет назад, а также дикие лошади из Западной Евразии.</div>
+            </div>
+
+            <div class="col-md-4 text-center mt-5" id="clone3">
+                <img src="image/3horse.png" class="horse">
+                <div class="num">3</div>
+                <div>В-третьих, прояснилось положение лошадей из поселения Ботай, которые до сих пор считались самыми древними представителями домашних лошадей в мире.</div>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="container">
+            <div class="row text-center align-items-center mt-5">
+                <div class="col-md-12 title">Происхождение современных домашних лошадей</div>
+                <div class="col-md-6 horsesClone">
+                    <img src="image/4horse.png" id="clone4" class="horseC">
+                    <img src="image/5horse.png" id="clone5" class="horseC">
+                </div>
+                <div class="col-md-6">
+                    <button class="p-3" id="bt4">Добавить</button>
+                    <button class="p-3" id="bt5">Убрать</button>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+
+        <footer class="container">
+            <div class="row text-center align-items-center mt-5">
+                <div class="col-md-12 title">Авторы статьи утверждают</div>
+                <p class="mt-5">Авторы статьи утверждают, что настоящей родиной всех современных домашних лошадей являются низовья Дона и Волги — район вокруг современной Астраханской области и западного Казахстана. Биоинформатик, исследователь компании MicroGen Biotech Дмитрий Равчеев объяснил, как именно ученые пришли к таким выводам, а также выяснили, кем являются для современных лошадей вымершие европейские тарпаны и чудом сохранившиеся лошади Пржевальского.</p>
+            </div>
+        </footer>
+    </div>
+    <div class="forest"></div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
